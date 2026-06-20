@@ -4,7 +4,7 @@ import React from 'react'
 function App() {
   return (
     <div className="cards">
-      <h1 >Sign Up </h1>
+      <h1 className="title">Sign Up </h1>
      <form>
         <div className="input-group">
             <label htmlFor="name">Username</label>
@@ -15,8 +15,8 @@ function App() {
             <input id="email" type="email" required placeholder="you@example.com" />
           </div>
       <div className="input-group">
-            <label>Password</label>
-            <input type="password"required placeholder="********" />
+            <label htmlFor="password">Password</label>
+            <input id="password" type="password"required placeholder="********" />
           </div>
           <button type="submit" className="submit-btn">Sign Up</button>
      </form>
