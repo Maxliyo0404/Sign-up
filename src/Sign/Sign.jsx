@@ -5,10 +5,8 @@ import "./Sign.css";
 function Sign() {
   return (
     <div className="sign">
-        {/* Rasmga mos asosiy xabar */}
+   
         <h1>Xush kelibsiz!</h1>
-        
-       
         <p className="subtitle">Sizning ro'yxatdan o'tishingiz muvaffaqiyatli yakunlandi.</p>
         
         <div className="actions">
