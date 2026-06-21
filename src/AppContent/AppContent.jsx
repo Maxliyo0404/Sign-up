@@ -38,7 +38,7 @@ function AppContent() {
   return (
     <div className="cards">
       <h1 className="title">Sign Up</h1>
-      <form onSubmit={handleRegister}>
+      <form onSubmit={handleRegister} autoComplete="off">
         <div className="input-group">
           <label htmlFor="name">Username</label>
           <input 

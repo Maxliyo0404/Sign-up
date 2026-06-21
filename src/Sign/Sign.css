@@ -17,7 +17,7 @@
 
 .actions {
   display: flex;
-  gap: 15px; /* Tugmalar orasidagi masofa */
+  gap: 15px; 
 }
 
 .back-link, .profile-link {
@@ -33,7 +33,7 @@
 }
 
 .profile-link {
-  background-color: #e67e22; /* Asosiy rang (Sizning "Yuborish" tugmasi rangi) */
+  background-color: #e67e22; 
   color: white;
 }
 
