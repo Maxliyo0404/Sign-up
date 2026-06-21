@@ -25,7 +25,7 @@ function AppContent() {
       });
       
       alert("Muvaffaqiyatli yuborildi!");
-      navigate("/sign"); // Formani to'ldirgandan so'ng ikkinchi oynaga o'tish
+      navigate("/sign"); 
       
     } catch (error) {
       console.error(error);
@@ -72,8 +72,7 @@ function AppContent() {
             placeholder="********" 
           />
         </div>
-        
-        {/* Button endi formani submit qiladi va navigate ishlaydi */}
+    
         <button type="submit" className="submit-btn" disabled={loading}>
           {loading ? "Yuborilmoqda..." : "Sign Up"}
         </button>
