@@ -5,7 +5,7 @@ function Sign() {
   return (
     <div className="sign">
         <h1>Xush kelibsiz!</h1>
-        {/* Router orqali asosiy sahifaga qaytish */}
+
         <Link to="/">ORTGA QAYTISH</Link>
     </div>
   )
