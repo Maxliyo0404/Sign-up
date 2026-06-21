@@ -1,6 +1,7 @@
 import "./App.css";
 import React, { useState } from 'react';
 import axios from 'axios';
+import Sign from "./Sign/Sign";
 function App() {
   // Barcha state'larni e'lon qiling
   const [name, setName] = useState("");
@@ -68,10 +69,10 @@ function App() {
             placeholder="********" 
           />
         </div>
-        <button type="submit" className="submit-btn">Sign Up</button>
+       <a href="./Sign/Sign.jsx"> <button type="submit" className="submit-btn">Sign Up</button></a>
       </form>
     </div>
   );
 }
-
+<Sign/>
 export default App;
