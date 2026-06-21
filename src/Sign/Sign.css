@@ -3,26 +3,40 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Ekranni to'liq egallash */
-  background-color: #121212; /* To'q qora fon */
+  height: 100vh;
+  background-color: #121212;
   color: white;
-  font-family: sans-serif;
+  text-align: center;
 }
 
-.sign h1 {
-  margin-bottom: 20px;
-  font-size: 32px;
+.subtitle {
+  font-size: 1.2rem;
+  color: #b0b0b0;
+  margin-bottom: 30px;
 }
 
-.sign a {
-  color: #ffffff;
+.actions {
+  display: flex;
+  gap: 15px; /* Tugmalar orasidagi masofa */
+}
+
+.back-link, .profile-link {
   text-decoration: none;
-  border: 1px solid #555;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 12px 25px;
+  border-radius: 8px;
   transition: 0.3s;
 }
 
-.sign a:hover {
-  background-color: #333;
+.back-link {
+  border: 1px solid #444;
+  color: white;
+}
+
+.profile-link {
+  background-color: #e67e22; /* Asosiy rang (Sizning "Yuborish" tugmasi rangi) */
+  color: white;
+}
+
+.profile-link:hover {
+  background-color: #d35400;
 }
