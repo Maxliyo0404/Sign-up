@@ -1,12 +1,12 @@
+import { Link } from 'react-router-dom';
 import "./Sign.css";
-import React from 'react'
 
 function Sign() {
   return (
     <div className="sign">
-        <a href="../App.jsx">ORTGA QAYTISH</a>
+        <h1>Xush kelibsiz!</h1>
+        <Link to="/">ORTGA QAYTISH</Link>
     </div>
   )
 }
-
-export default Sign
+export default Sign;
