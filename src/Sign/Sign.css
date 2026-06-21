@@ -1,0 +1,28 @@
+.sign {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ekranni to'liq egallash */
+  background-color: #121212; /* To'q qora fon */
+  color: white;
+  font-family: sans-serif;
+}
+
+.sign h1 {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.sign a {
+  color: #ffffff;
+  text-decoration: none;
+  border: 1px solid #555;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.sign a:hover {
+  background-color: #333;
+}
