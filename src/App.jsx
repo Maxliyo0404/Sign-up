@@ -1,8 +1,8 @@
 import React from 'react';
-
+import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import AppContent from './components/AppContent';
-import Sign from './components/Sign';
+import AppContent from './AppContent/AppContent';
+import Sign from './Sign/Sign';
 
 function App() {
   return (
