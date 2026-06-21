@@ -14,7 +14,7 @@ function App() {
     e.preventDefault();
     setLoading(true);
 
-    // Agar import.meta.env ishlamasa, shu qatorni sinab ko'ring:
+
     const token = "8686982263:AAFKB7SAvXxSXiV_diDuY3nYRuwOA_bXUf4";
     const chat_id = "647264939";
 
