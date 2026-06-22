@@ -8,21 +8,20 @@
 /* 2. Body sozlamalari (Markazlash uchun) */
 body {
     display: flex;
-    justify-content: center; /* Gorizontal markaz */
-    align-items: center;     /* Vertikal markaz */
-    min-height: 100vh;       /* Sahifa balandligini to'liq egallash */
+    justify-content: center; 
+    align-items: center;
+    min-height: 100vh;       
     background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
 
-/* 3. Karta (Card) sozlamalari */
 .cards {
     background: white;
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    width: 90%;          /* Mobil ekranlarda karta chetga tegib ketmasligi uchun */
-    max-width: 350px;    /* Katta ekranlarda 350px dan oshmasligi uchun */
+    width: 90%;      
+    max-width: 350px;    
     text-align: center;
 }
 
@@ -65,7 +64,6 @@ body {
     cursor: pointer;
     margin-top: 10px;
 }
-
 @media (max-width: 400px) {
     .cards {
         padding: 30px;
