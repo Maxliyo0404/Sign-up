@@ -4,33 +4,54 @@
   justify-content: center;
   align-items: center;
   max-width: 500px;
-  height: 600px;
+  width: 90%; /* Mobil uchun kenglikni foizda beramiz */
+  min-height: 400px; /* Balandlikni o'zgaruvchan qilamiz */
+  height: auto;      /* Kontentga qarab moslashadi */
+  padding: 20px;     /* Ichki joy tashlash */
   background-color: #121212;
   color: white;
   text-align: center;
   border-radius: 30px;
+  margin: 10px auto; /* Markazga olish */
 }
 
 .subtitle {
-  font-size: 1.2rem;
-  color:#FFFFFF;
-  margin-bottom: 30px;
+  font-size: 1.1rem;
+  color: #FFFFFF;
+  margin-bottom: 20px;
 }
-.card{
-    margin: 30px;
-    background: #3b3a3a;
-    padding: 25px;
-    border-radius: 30px;
-    border: 1px solid gainsboro;
+
+.card {
+  margin: 15px;      /* Mobil uchun marginni kichraytiramiz */
+  background: #3b3a3a;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid gainsboro;
 }
+
 .actions {
   display: flex;
-  gap: 15px; 
+  gap: 10px;         /* Tugmalar orasidagi masofani qisqartirdik */
+  flex-wrap: wrap;   /* Agar tugmalar sig'masa, pastga tushadi */
+  justify-content: center;
+}
+
+/* Kichik ekranlar uchun (max-width: 480px) */
+@media (max-width: 480px) {
+  .sign {
+    border-radius: 20px; /* Kichikroq ekranda burchakni yumshatamiz */
+    padding: 15px;
+  }
+  
+  .back-link, .profile-link {
+    width: 100%;      /* Tugmalarni to'liq kenglikda qilish */
+    text-align: center;
+  }
 }
 
 .back-link, .profile-link {
   text-decoration: none;
-  padding: 12px 25px;
+  padding: 12px 20px;
   border-radius: 8px;
   transition: 0.3s;
 }
