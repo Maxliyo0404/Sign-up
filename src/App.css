@@ -9,8 +9,6 @@ body {
   background: linear-gradient(135deg, #74ebd5 0%, #9face6 100%);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }
-
-/* Karta dizayni */
 .cards {
   background: white;
   padding: 40px;
