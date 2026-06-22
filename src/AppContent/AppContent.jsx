@@ -9,7 +9,7 @@ function AppContent() {
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   
-  const navigate = useNavigate(); // O'tish uchun hook
+  const navigate = useNavigate();
 
   const handleRegister = async (e) => {
     e.preventDefault();

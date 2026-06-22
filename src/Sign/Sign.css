@@ -3,10 +3,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 600px;
   background-color: #121212;
   color: white;
   text-align: center;
+  border-radius: 30px;
 }
 
 .subtitle {
@@ -14,7 +15,13 @@
   color: #b0b0b0;
   margin-bottom: 30px;
 }
-
+.card{
+    margin: 30px;
+    background: #3b3a3a;
+    padding: 25px;
+    border-radius: 30px;
+    border: 1px solid gainsboro;
+}
 .actions {
   display: flex;
   gap: 15px; 

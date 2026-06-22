@@ -7,6 +7,7 @@ function Sign() {
     <div className="sign">
    
         <h1>Xush kelibsiz!</h1>
+        <div className="card">
         <p className="subtitle">Sizning ro'yxatdan o'tishingiz muvaffaqiyatli yakunlandi.</p>
         
         <div className="actions">
@@ -14,7 +15,9 @@ function Sign() {
         
             <Link to="/profile" className="profile-link">Profilni ko'rish</Link>
         </div>
+        </div>
     </div>
+  
   );
 }
 
