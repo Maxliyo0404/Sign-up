@@ -1,11 +1,9 @@
-/* 1. Barcha elementlarni tozalash (Eng tepaga qo'ying) */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-/* 2. Body sozlamalari (Markazlash uchun) */
 body {
     display: flex;
     justify-content: center; 
