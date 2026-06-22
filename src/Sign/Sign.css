@@ -4,15 +4,15 @@
   justify-content: center;
   align-items: center;
   max-width: 500px;
-  width: 90%; /* Mobil uchun kenglikni foizda beramiz */
-  min-height: 400px; /* Balandlikni o'zgaruvchan qilamiz */
-  height: auto;      /* Kontentga qarab moslashadi */
-  padding: 20px;     /* Ichki joy tashlash */
+  width: 90%; 
+  min-height: 400px; 
+  height: auto;     
+  padding: 20px;    
   background-color: #121212;
   color: white;
   text-align: center;
   border-radius: 30px;
-  margin: 10px auto; /* Markazga olish */
+  margin: 10px auto;
 }
 
 .subtitle {
@@ -22,7 +22,7 @@
 }
 
 .card {
-  margin: 15px;      /* Mobil uchun marginni kichraytiramiz */
+  margin: 15px;     
   background: #3b3a3a;
   padding: 20px;
   border-radius: 20px;
@@ -31,20 +31,19 @@
 
 .actions {
   display: flex;
-  gap: 10px;         /* Tugmalar orasidagi masofani qisqartirdik */
-  flex-wrap: wrap;   /* Agar tugmalar sig'masa, pastga tushadi */
+  gap: 10px;        
+  flex-wrap: wrap;  
   justify-content: center;
 }
 
-/* Kichik ekranlar uchun (max-width: 480px) */
 @media (max-width: 480px) {
   .sign {
-    border-radius: 20px; /* Kichikroq ekranda burchakni yumshatamiz */
+    border-radius: 20px; 
     padding: 15px;
   }
   
   .back-link, .profile-link {
-    width: 100%;      /* Tugmalarni to'liq kenglikda qilish */
+    width: 100%;      
     text-align: center;
   }
 }
